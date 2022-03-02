@@ -1,10 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" href="button.css">
+    <script src="popup.js" type="module"></script>
   </head>
-  <body>
-    <button id="changeColor"></button>
-    <script src="popup.js"></script>
-  </body>
+<body>
+  <form id="control-row">
+    <label for="input">Domain:</label>
+    <input type="text" id="input">
+    <br>
+    <button id="go">Clear Cookies</button>
+  </form>
+  <span id="message" hidden></span>
+</body>
 </html>
